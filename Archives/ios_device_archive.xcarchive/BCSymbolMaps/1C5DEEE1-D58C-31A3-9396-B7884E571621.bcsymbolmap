@@ -1,0 +1,32 @@
+BCSymbolMap Version: 2.0
+Apple clang version 12.0.0 (clang-1200.0.32.2)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk
+iPhoneOS14.0.sdk
+/Users/enzo/Library/Developer/Xcode/DerivedData/TestFramework-ayurfdeawqkrotgnxtjmcpvprjfd/Build/Intermediates.noindex/ArchiveIntermediates/TestFramework/IntermediateBuildFilesPath/TestFramework.build/Release-iphoneos/TestFramework.build/DerivedSources/TestFramework_vers.c
+/Users/enzo/Desktop/XCFrameworkTest/TestFramework
+___swift_instantiateConcreteTypeFromMangledName
+_symbolic _____yypG s23_ContiguousArrayStorageC
+_$ss23_ContiguousArrayStorageCyypGMD
+_$s13TestFrameworkMXM
+_$s13TestFrameworkAAVMf
+_symbolic _____ 13TestFrameworkAAV
+_$s13TestFrameworkAAVMF
+__swift_FORCE_LOAD_$_swiftFoundation_$_TestFramework
+__swift_FORCE_LOAD_$_swiftObjectiveC_$_TestFramework
+__swift_FORCE_LOAD_$_swiftDarwin_$_TestFramework
+__swift_FORCE_LOAD_$_swiftCoreFoundation_$_TestFramework
+__swift_FORCE_LOAD_$_swiftDispatch_$_TestFramework
+__swift_FORCE_LOAD_$_swiftCoreGraphics_$_TestFramework
+___swift_reflection_version
+Apple clang version 12.0.0 (clang-1200.0.30.1)
+<swift-imported-modules>
+Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+/Users/enzo/Desktop/XCFrameworkTest/TestFramework/TestFramework/TestFramework.swift
+$s13TestFrameworkAAVMa
+<compiler-generated>
+sayHello
+_allocateUninitializedArray
+$sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZyp_Tg5
+$ss22_ContiguousArrayBufferV19firstElementAddressSpyxGvgyp_Tg5
+$ss22_ContiguousArrayBufferV5count7storageAByxGSi_s01_aB7StorageCyxGtcfCyp_Tg5
+$ss22_ContiguousArrayBufferV18_initStorageHeader5count8capacityySi_SitFyp_Tg5
