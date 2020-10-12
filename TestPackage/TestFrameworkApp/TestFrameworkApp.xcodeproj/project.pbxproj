@@ -16,19 +16,6 @@
 		C6BBD3BC252DA4A700B9677A /* TestPackage in Frameworks */ = {isa = PBXBuildFile; productRef = C6BBD3BB252DA4A700B9677A /* TestPackage */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		C6BBD3C0252DA53500B9677A /* Embed frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		C6BBD39E252DA1C000B9677A /* TestFrameworkApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestFrameworkApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6BBD3A1252DA1C000B9677A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -102,8 +89,6 @@
 				C6BBD39A252DA1C000B9677A /* Sources */,
 				C6BBD39B252DA1C000B9677A /* Frameworks */,
 				C6BBD39C252DA1C000B9677A /* Resources */,
-				C6BBD3C0252DA53500B9677A /* Embed frameworks */,
-				C6BBD3C1252DA53C00B9677A /* Codesign */,
 			);
 			buildRules = (
 			);
@@ -162,27 +147,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		C6BBD3C1252DA53C00B9677A /* Codesign */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = Codesign;
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Codesign DrawingsKit framework as it is an xctframework file, not signed yet\ncodesign -f -v --sign \"23V736L7E8\" ${CODESIGNING_FOLDER_PATH}/Frameworks/TestFramework.framework\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C6BBD39A252DA1C000B9677A /* Sources */ = {
@@ -354,6 +318,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_CODE_SIGN_FLAGS = "--deep";
 				PRODUCT_BUNDLE_IDENTIFIER = com.finalcad.TestFrameworkApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
@@ -376,6 +341,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_CODE_SIGN_FLAGS = "--deep";
 				PRODUCT_BUNDLE_IDENTIFIER = com.finalcad.TestFrameworkApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = NO;
